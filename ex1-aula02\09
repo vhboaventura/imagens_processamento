@@ -1,0 +1,33 @@
+
+from pathlib import Path
+import matplotlib.pyplot as plt
+from skimage import io, color, img_as_ubyte
+
+IMAGES_DIR = Path(".")
+OUTPUT_DIR = Path("saidas")
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+VALID_EXTS = {".jpg", ".jpeg", ".png"}
+
+arquivos = [p for p in IMAGES_DIR.iterdir() if p.suffix.lower() in VALID_EXTS]
+print(f"Total de imagens encontradas: {len(arquivos)}")
+
+for img_path in arquivos:
+    print("Processando:", img_path.name)
+    img_color = io.imread(img_path)
+    img_gray = color.rgb2gray(img_color)
+    img_neg  = 1.0 - img_gray
+
+    fig, axes = plt.subplots(1, 3, figsize=(12, 4))
+    axes[0].imshow(img_color); axes[0].set_title("Colorida"); axes[0].axis("off")
+    axes[1].imshow(img_gray, cmap="gray"); axes[1].set_title("Cinza"); axes[1].axis("off")
+    axes[2].imshow(img_neg,  cmap="gray"); axes[2].set_title("Negativo"); axes[2].axis("off")
+    plt.suptitle(img_path.name)
+    plt.show()
+
+    base = img_path.stem
+    io.imsave(OUTPUT_DIR / f"{base}_gray.png", img_as_ubyte(img_gray))
+    io.imsave(OUTPUT_DIR / f"{base}_negative.png", img_as_ubyte(img_neg))
+
+print("\n✅ Conversão concluída!")
+print("Arquivos salvos em:", OUTPUT_DIR.resolve())
