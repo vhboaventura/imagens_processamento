@@ -1,0 +1,132 @@
+Descrição da Base de Imagens Originais
+Autor: Victor
+Total de imagens: 16
+
+--------------------------------------------------------------------
+Nome: chave_i_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente interno, à noite.
+Descrição: Objeto visível, mas a iluminação artificial deixou partes mais escuras.
+Positivo: fundo homogêneo ajuda a identificar o objeto.
+Negativo: sombras atrapalham a definição da ponta da chave.
+
+--------------------------------------------------------------------
+Nome: escova_o_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente externo, de dia.
+Descrição: Escova bem iluminada, cores naturais.
+Positivo: contraste entre escova e fundo natural.
+Negativo: textura do fundo pode gerar confusão no processamento.
+
+--------------------------------------------------------------------
+Nome: flor_i_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente interno, à noite.
+Descrição: Flor com caule centralizada, mas pouca luz comprometeu detalhes.
+Positivo: formato geral ainda perceptível.
+Negativo: pétalas ficaram escuras em alguns pontos.
+
+--------------------------------------------------------------------
+Nome: carro_i_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente interno, à noite.
+Descrição: Carro parcialmente iluminado, detalhes da lateral prejudicados.
+Positivo: contornos principais do veículo reconhecíveis.
+Negativo: sombras fortes dificultam a análise.
+
+--------------------------------------------------------------------
+Nome: escova_i_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente interno, à noite.
+Descrição: Escova em fundo simples, mas iluminação fraca.
+Positivo: objeto centralizado e sem cortes.
+Negativo: baixo brilho pode dificultar segmentação.
+
+--------------------------------------------------------------------
+Nome: carro_i_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente interno, de dia.
+Descrição: Carro bem iluminado, detalhes visíveis.
+Positivo: boa nitidez, contraste equilibrado.
+Negativo: reflexos de luz nos vidros.
+
+--------------------------------------------------------------------
+Nome: chave_o_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente externo, de dia.
+Descrição: Chave destacada sobre fundo variado.
+Positivo: boa iluminação natural.
+Negativo: reflexos metálicos fortes na superfície da chave.
+
+--------------------------------------------------------------------
+Nome: flor_o_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente externo, à noite.
+Descrição: Flor visível, mas iluminação insuficiente.
+Positivo: silhueta da flor preservada.
+Negativo: ruído visual e perda de cor natural.
+
+--------------------------------------------------------------------
+Nome: carro_o_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente externo, de dia.
+Descrição: Carro iluminado pela luz natural.
+Positivo: cores reais, detalhes bem definidos.
+Negativo: presença de sombra parcial na lateral.
+
+--------------------------------------------------------------------
+Nome: flor_i_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente interno, de dia.
+Descrição: Flor bem centralizada, fundo limpo.
+Positivo: fácil identificação da forma.
+Negativo: iluminação artificial gerou pequenas áreas sombreadas.
+
+--------------------------------------------------------------------
+Nome: chave_i_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente interno, de dia.
+Descrição: Chave sobre fundo homogêneo claro.
+Positivo: fácil segmentação.
+Negativo: ponta da chave com leve desfoque.
+
+--------------------------------------------------------------------
+Nome: chave_o_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente externo, à noite.
+Descrição: Chave visível, mas iluminação fraca prejudicou o brilho metálico.
+Positivo: formato geral preservado.
+Negativo: reflexos reduzidos dificultam diferenciação do fundo.
+
+--------------------------------------------------------------------
+Nome: escova_i_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente interno, de dia.
+Descrição: Escova centralizada, fundo limpo.
+Positivo: nitidez e contraste adequados.
+Negativo: sombra no cabo da escova.
+
+--------------------------------------------------------------------
+Nome: escova_o_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente externo, à noite.
+Descrição: Escova visível, mas com iluminação irregular.
+Positivo: formato do objeto ainda claro.
+Negativo: perda de detalhes por baixa luz.
+
+--------------------------------------------------------------------
+Nome: flor_o_d_victor.jpeg
+Dimensão: 4032x3024
+Características: Foto em ambiente externo, de dia.
+Descrição: Flor bem iluminada com cores vibrantes.
+Positivo: fidelidade de cor e boa definição.
+Negativo: fundo com outras plantas gera ruído visual.
+
+--------------------------------------------------------------------
+Nome: carro_o_n_victor.jpeg
+Dimensão: 1600x1200
+Características: Foto em ambiente externo, à noite.
+Descrição: Carro parcialmente visível com pouca luz.
+Positivo: silhueta geral reconhecível.
+Negativo: ausência de detalhes compromete o uso em análises.
+
