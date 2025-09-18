@@ -1,0 +1,2 @@
+Base em níveis de cinza: https://github.com/vhboaventura/imagens_processamento/tree/main/base_cinza
+Data limite: 25/09/2025
